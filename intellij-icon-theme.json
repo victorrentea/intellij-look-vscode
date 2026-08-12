@@ -162,6 +162,45 @@
   },
   "_class_d": {
    "iconPath": "./icons/nd-class_dark.svg"
+  },
+  "_markdown": {
+   "iconPath": "./icons/ft-markdown.svg"
+  },
+  "_markdown_d": {
+   "iconPath": "./icons/ft-markdown_dark.svg"
+  },
+  "_shell": {
+   "iconPath": "./icons/ft-shell.svg"
+  },
+  "_shell_d": {
+   "iconPath": "./icons/ft-shell_dark.svg"
+  },
+  "_groovy": {
+   "iconPath": "./icons/ft-groovy.svg"
+  },
+  "_groovy_d": {
+   "iconPath": "./icons/ft-groovy_dark.svg"
+  },
+  "_c": {
+   "iconPath": "./icons/ft-c.svg"
+  },
+  "_c_d": {
+   "iconPath": "./icons/ft-c_dark.svg"
+  },
+  "_cpp": {
+   "iconPath": "./icons/ft-cpp.svg"
+  },
+  "_cpp_d": {
+   "iconPath": "./icons/ft-cpp_dark.svg"
+  },
+  "_docker": {
+   "iconPath": "./icons/ft-docker.svg"
+  },
+  "_docker_d": {
+   "iconPath": "./icons/ft-docker_dark.svg"
+  },
+  "_maven": {
+   "iconPath": "./icons/ft-maven.svg"
   }
  },
  "file": "_unknown_d",
@@ -183,8 +222,8 @@
   "yml": "_yaml_d",
   "txt": "_text_d",
   "log": "_text_d",
-  "md": "_text_d",
-  "markdown": "_text_d",
+  "md": "_markdown_d",
+  "markdown": "_markdown_d",
   "adoc": "_text_d",
   "css": "_css_d",
   "scss": "_css_d",
@@ -237,19 +276,34 @@
   "puml": "_diagram_d",
   "plantuml": "_diagram_d",
   "dot": "_diagram_d",
-  "regex": "_regexp_d"
+  "regex": "_regexp_d",
+  "sh": "_shell_d",
+  "bash": "_shell_d",
+  "zsh": "_shell_d",
+  "groovy": "_groovy_d",
+  "gradle": "_groovy_d",
+  "c": "_c_d",
+  "h": "_c_d",
+  "cpp": "_cpp_d",
+  "cc": "_cpp_d",
+  "hpp": "_cpp_d",
+  "iml": "_config_d",
+  "feature": "_text_d"
  },
  "fileNames": {
   ".gitignore": "_gitignore",
-  ".dockerignore": "_gitignore",
+  ".dockerignore": "_docker_d",
   ".npmignore": "_gitignore",
   ".gitattributes": "_gitignore",
-  "pom.xml": "_xml_d",
+  "pom.xml": "_maven",
   "MANIFEST.MF": "_manifest_d",
-  "Dockerfile": "_config_d",
+  "Dockerfile": "_docker_d",
   "Makefile": "_config_d",
   ".editorconfig": "_config_d",
-  "application.properties": "_properties_d"
+  "application.properties": "_properties_d",
+  "dockerfile": "_docker_d",
+  "docker-compose.yml": "_docker_d",
+  "lombok.config": "_config_d"
  },
  "languageIds": {
   "java": "_class_d",
@@ -265,9 +319,12 @@
   "typescript": "_typeScript_d",
   "sql": "_sql_d",
   "properties": "_properties_d",
-  "markdown": "_text_d",
+  "markdown": "_markdown_d",
   "plaintext": "_text_d",
-  "csv": "_csv_d"
+  "csv": "_csv_d",
+  "shellscript": "_shell_d",
+  "groovy": "_groovy_d",
+  "dockerfile": "_docker_d"
  },
  "light": {
   "file": "_unknown",
@@ -289,8 +346,8 @@
    "yml": "_yaml",
    "txt": "_text",
    "log": "_text",
-   "md": "_text",
-   "markdown": "_text",
+   "md": "_markdown",
+   "markdown": "_markdown",
    "adoc": "_text",
    "css": "_css",
    "scss": "_css",
@@ -343,19 +400,34 @@
    "puml": "_diagram",
    "plantuml": "_diagram",
    "dot": "_diagram",
-   "regex": "_regexp"
+   "regex": "_regexp",
+   "sh": "_shell",
+   "bash": "_shell",
+   "zsh": "_shell",
+   "groovy": "_groovy",
+   "gradle": "_groovy",
+   "c": "_c",
+   "h": "_c",
+   "cpp": "_cpp",
+   "cc": "_cpp",
+   "hpp": "_cpp",
+   "iml": "_config",
+   "feature": "_text"
   },
   "fileNames": {
    ".gitignore": "_gitignore",
-   ".dockerignore": "_gitignore",
+   ".dockerignore": "_docker",
    ".npmignore": "_gitignore",
    ".gitattributes": "_gitignore",
-   "pom.xml": "_xml",
+   "pom.xml": "_maven",
    "MANIFEST.MF": "_manifest",
-   "Dockerfile": "_config",
+   "Dockerfile": "_docker",
    "Makefile": "_config",
    ".editorconfig": "_config",
-   "application.properties": "_properties"
+   "application.properties": "_properties",
+   "dockerfile": "_docker",
+   "docker-compose.yml": "_docker",
+   "lombok.config": "_config"
   },
   "languageIds": {
    "java": "_class",
@@ -371,9 +443,12 @@
    "typescript": "_typeScript",
    "sql": "_sql",
    "properties": "_properties",
-   "markdown": "_text",
+   "markdown": "_markdown",
    "plaintext": "_text",
-   "csv": "_csv"
+   "csv": "_csv",
+   "shellscript": "_shell",
+   "groovy": "_groovy",
+   "dockerfile": "_docker"
   }
  }
 }
