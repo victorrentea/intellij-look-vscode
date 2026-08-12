@@ -201,6 +201,12 @@
   },
   "_maven": {
    "iconPath": "./icons/ft-maven.svg"
+  },
+  "_module": {
+   "iconPath": "./icons/nd-module.svg"
+  },
+  "_module_d": {
+   "iconPath": "./icons/nd-module_dark.svg"
   }
  },
  "file": "_unknown_d",
@@ -287,7 +293,7 @@
   "cpp": "_cpp_d",
   "cc": "_cpp_d",
   "hpp": "_cpp_d",
-  "iml": "_config_d",
+  "iml": "_module_d",
   "feature": "_text_d"
  },
  "fileNames": {
@@ -303,7 +309,12 @@
   "application.properties": "_properties_d",
   "dockerfile": "_docker_d",
   "docker-compose.yml": "_docker_d",
-  "lombok.config": "_config_d"
+  "lombok.config": "_config_d",
+  ".classpath": "_xml_d",
+  ".project": "_xml_d",
+  ".factorypath": "_text_d",
+  ".jqwik-database": "_text_d",
+  "pom-libs.txt": "_text_d"
  },
  "languageIds": {
   "java": "_class_d",
@@ -411,7 +422,7 @@
    "cpp": "_cpp",
    "cc": "_cpp",
    "hpp": "_cpp",
-   "iml": "_config",
+   "iml": "_module",
    "feature": "_text"
   },
   "fileNames": {
@@ -427,7 +438,12 @@
    "application.properties": "_properties",
    "dockerfile": "_docker",
    "docker-compose.yml": "_docker",
-   "lombok.config": "_config"
+   "lombok.config": "_config",
+   ".classpath": "_xml",
+   ".project": "_xml",
+   ".factorypath": "_text",
+   ".jqwik-database": "_text",
+   "pom-libs.txt": "_text"
   },
   "languageIds": {
    "java": "_class",
