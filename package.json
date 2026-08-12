@@ -1,0 +1,44 @@
+{
+  "name": "intellij-look",
+  "displayName": "IntelliJ Look for VS Code",
+  "description": "Makes VS Code look and behave like IntelliJ IDEA's New UI: real JetBrains file icons, measured colours, IntelliJ line spacing, a footer breadcrumb and the branch in the title bar.",
+  "version": "1.0.0",
+  "publisher": "victorrentea",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorrentea/intellij-look-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Themes", "Other"],
+  "keywords": ["intellij", "idea", "jetbrains", "theme", "icons"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "extensionPack": [
+    "oleksandrhavrysh.vscode-intellij-theme",
+    "k--kato.intellij-idea-keybindings"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "intellij-expui",
+        "label": "IntelliJ New UI (expui)",
+        "path": "./intellij-icon-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "intellijLook.applySettings",
+        "title": "IntelliJ Look: Apply IntelliJ Settings",
+        "category": "IntelliJ Look"
+      },
+      {
+        "command": "intellijLook.revertSettings",
+        "title": "IntelliJ Look: Revert IntelliJ Settings",
+        "category": "IntelliJ Look"
+      }
+    ]
+  }
+}
