@@ -36,6 +36,25 @@ themes and the IntelliJ keymap.
 | **Cog in the status bar** | Opens the Command Palette |
 | **Collapsed Java packages** | `java/victor/training/petclinic` on one row |
 
+## What you still have to do by hand
+
+The command writes every setting it can, but four things are outside its reach:
+
+1. **Install the JetBrains Mono font.** The settings ask for it by name; without
+   it installed on the machine VS Code silently falls back to Menlo and the
+   editor will not match. Free from
+   [jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono/) — on macOS,
+   `brew install --cask font-jetbrains-mono`.
+2. **Reload the window** after applying, so the icon theme and the status-bar
+   items come up.
+3. **Hide the duplicate branch**, if it bothers you: the branch now shows both in
+   the title bar and in the status bar. Right-click the status bar → untick
+   *Source Control*. VS Code stores that per-user outside settings.json, so an
+   extension cannot do it for you.
+4. **Use the Java Projects view** for per-type ⓒ/Ⓘ/Ⓔ icons and for members in
+   the tree. That view is IntelliJ's Project tool window; the Explorer is a file
+   tree and can only ever give one icon per file extension.
+
 ## The setting nobody guesses
 
 If `editor.accessibilitySupport` is `"on"`, VS Code concludes a screen reader is

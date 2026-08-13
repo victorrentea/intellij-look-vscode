@@ -133,6 +133,10 @@ const SETTINGS = {
   // Leave this at "on" only if you genuinely use a screen reader.
   'editor.accessibilitySupport': 'auto',
   'explorer.compactFolders': true,
+  // Off by default in VS Code (it costs performance on huge trees), but with
+  // packages compacted the long names run past the panel and would otherwise
+  // just be truncated.
+  'workbench.list.horizontalScrolling': true,
 
   'editor.fontFamily': "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   'editor.fontLigatures': true,
@@ -156,6 +160,11 @@ const SETTINGS = {
   'breadcrumbs.enabled': false,
 
   'workbench.iconTheme': 'intellij-expui',
+  // The colour theme itself can be set from here, so nobody has to hunt for it
+  // in the theme picker. Light/dark follow the OS, which is what IntelliJ does.
+  'window.autoDetectColorScheme': true,
+  'workbench.preferredLightColorTheme': 'IntelliJ IDEA Islands Light',
+  'workbench.preferredDarkColorTheme': 'IntelliJ IDEA Islands Dark',
 
   // Java tool window ≈ IntelliJ's Project view (per-symbol icons, members).
   'java.dependency.packagePresentation': 'hierarchical',
