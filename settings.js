@@ -37,6 +37,12 @@ const IJ_LIGHT = {
   'titleBar.border': '#DFE1E5',
   'sash.hoverBorder': '#3574F0',
 
+  // A file with problems keeps its normal name colour — only the badge marks it.
+  // VS Code paints the label and the badge from this one token, so the badge
+  // loses its red/amber too; the two cannot be separated without CSS.
+  'list.errorForeground': '#000000',
+  'list.warningForeground': '#000000',
+
   // Node colours straight out of intellij-community's expui SVGs.
   'symbolIcon.classForeground': '#3574F0',
   'symbolIcon.interfaceForeground': '#208A3C',
@@ -100,6 +106,8 @@ const IJ_DARK = {
   'statusBar.border': '#393B40',
   'titleBar.border': '#393B40',
   'sash.hoverBorder': '#3574F0',
+  'list.errorForeground': '#BCBEC4',
+  'list.warningForeground': '#BCBEC4',
 
   'symbolIcon.classForeground': '#548AF7',
   'symbolIcon.interfaceForeground': '#57965C',

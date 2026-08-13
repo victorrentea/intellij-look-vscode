@@ -2,7 +2,7 @@
   "name": "intellij-look",
   "displayName": "IntelliJ Look for VS Code",
   "description": "Makes VS Code look and behave like IntelliJ IDEA's New UI: real JetBrains file icons, measured colours, IntelliJ line spacing, a footer breadcrumb and the branch in the title bar.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "publisher": "victorrentea",
   "license": "MIT",
   "repository": {
