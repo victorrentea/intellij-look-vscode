@@ -145,6 +145,10 @@ const SETTINGS = {
   // packages compacted the long names run past the panel and would otherwise
   // just be truncated.
   'workbench.list.horizontalScrolling': true,
+  // No "M"/"U" letters beside names. This is one switch for ALL badges, so the
+  // problem counts go with them — which is IntelliJ's model anyway: the tree is
+  // coloured by VCS state, and errors live in the editor and the Problems view.
+  'explorer.decorations.badges': false,
 
   'editor.fontFamily': "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
   'editor.fontLigatures': true,
